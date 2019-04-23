@@ -5,19 +5,20 @@ using namespace std;
 
 int main()
 {
-	double x, f;
+	double x, y;
 
 	x = 5;
-	f = 1 - (1/4 * pow(sin(2*x), 2)) + cos(2*x);
+	y = 1 - (1/4 * pow(sin(2*x), 2)) + cos(2*x);
 
 	printf("x = %f\n", x);
-	printf("f = %f\n", f);
+	printf("y = %f\n", y);
 
 	cin >> x;
-	f = 1 - (1/4 * pow(sin(2*x), 2)) + cos(2*x);
+	y = 1 - (1/4 * pow(sin(2*x), 2)) + cos(2*x);
 
 	printf("x = %f\n", x);
-	printf("f = %f\n", f);
+	printf("y = %f\n", y);
 	
+	system("pause");
 	return 0;
 }

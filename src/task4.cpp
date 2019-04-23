@@ -14,6 +14,7 @@ int main()
 	printf("x = %f\n", x);
 	printf("result = %f\n", result);
 	
+	system("pause");
 	return 0;
 }
 
