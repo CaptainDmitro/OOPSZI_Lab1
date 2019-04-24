@@ -1,4 +1,5 @@
 #include <iostream>
+#include <locale.h>
 #include <math.h>
 #include "func.h"
 
@@ -6,6 +7,8 @@ using namespace std;
 
 int main()
 {
+	setlocale(LC_ALL, "RUS");
+
 	cin >> x;
 	f();
 
