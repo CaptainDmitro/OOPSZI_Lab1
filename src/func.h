@@ -1,2 +1,2 @@
 void f();
-extern double x, result;
+extern double x, y;
