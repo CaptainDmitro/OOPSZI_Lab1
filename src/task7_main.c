@@ -7,8 +7,8 @@ int main()
 	scanf("%lf", &x);
 	f();
 
-	printf("x = %f\n", x);
-	printf("y = %f\n", y);
+	printf("x = %.4f\n", x);
+	printf("y = %.4f\n", y);
 	
 	system("pause");
 	return 0;
